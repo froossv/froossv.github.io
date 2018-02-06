@@ -1,0 +1,8 @@
+#heading{
+	font-family: Georgia;
+	font-color: Red;
+}
+
+#heading:hover{
+	font-color: Blue;
+}
