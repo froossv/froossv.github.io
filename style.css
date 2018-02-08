@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(./fonts/ubuntu.woff) format('woff');
+}
+
 body{
-	background-image: url('./src/gifs/SolarSystem.gif');
+	background-image: url('./gifs/SolarSystem.gif');
 	background-size: cover;
-	background-repeat: repeat-y;
 	background-position: center;
     background-attachment: fixed;
     height:100%;
@@ -10,11 +16,14 @@ body{
 
 
 #heading{
-	font-family: "Ubuntu" Georgia;
+	font-family: Ubuntu, "times new roman", times, roman, serif;
+	font-size: 15px;
 	color: Red;
 }
 
 #heading:hover{
 	color: Blue;
 }
+
+
 
