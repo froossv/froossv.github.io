@@ -6,7 +6,7 @@
 }
 
 body{
-	/*background-image: url('./gifs/SolarSystem.gif');*/
+	background-image: url('./gifs/SolarSystem.gif');
 	background-size: cover;
 	background-position: center;
     background-attachment: fixed;
