@@ -6,7 +6,7 @@
 }
 
 body{
-	background-image: url('./gifs/SolarSystem.gif');
+	/*background-image: url('./gifs/SolarSystem.gif');*/
 	background-size: cover;
 	background-position: center;
     background-attachment: fixed;
@@ -16,16 +16,59 @@ body{
 	overflow-y: hidden;
 }
 
-
-#heading{
-	font-family: Ubuntu, "times new roman", times, roman, serif;
-	font-size: 15px;
-	color: Red;
+div{
+	display: block;
 }
 
-#heading:hover{
-	color: Blue;
+.terminal{
+	margin: 0 auto;
+	/*max-width: 1300px;*/
+	padding: 0 60px;
 }
+
+.toolbar{
+	background-image: url('./img/toolbar.png');
+	position: relative;
+	height: 30px;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 20px;
+}
+
+/*.toolbar .title{
+	color: #000;
+	display: block;
+	font: "Ubuntu";
+	line-height: 30px;
+	text-align: center;
+}*/
+
+.toolbar .controls{
+	left: 9px;
+	position: absolute;
+	top: 9px;
+}
+
+.toolbar .controls li a.close{
+	background-image: url('./img/Close.png');
+	display: inline;
+}
+
+.toolbar .controls li a.minimize{
+	background-image: url('./img/Minimize.png') no-repeat;
+	display: inline;
+	
+}
+
+.toolbar .controls li a.maximize{
+	background-image: url('./img/Maximize.png') no-repeat;
+	display: inline;
+	
+}
+
+.toolbar .title-terminal{
+	position: relative;
+}
+
 
 
 
