@@ -34,13 +34,13 @@ div{
 	margin-top: 20px;
 }
 
-/*.toolbar .title{
+.toolbar .title{
 	color: #000;
 	display: block;
 	font: "Ubuntu";
 	line-height: 30px;
 	text-align: center;
-}*/
+}
 
 .toolbar .controls{
 	left: 9px;
