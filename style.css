@@ -1,74 +1,82 @@
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: 400;
-    src: local('Ubuntu'), url(./fonts/ubuntu.woff) format('woff');
+    src: url(./fonts/ubuntu.woff) format('woff');
 }
 
 body{
 	background-image: url('./gifs/SolarSystem.gif');
 	background-size: cover;
 	background-position: center;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
+	background-attachment: fixed;
+	height:100%;
+	width:100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
 
-div{
-	display: block;
-}
-
 .terminal{
-	margin: 0 auto;
-	/*max-width: 1300px;*/
-	padding: 0 60px;
-}
+	max-width: 1300px;
+	margin-top: 220px;
+	margin-left: 100px;
+	margin-right: 100px;
+}  
 
 .toolbar{
 	background-image: url('./img/toolbar.png');
-	position: relative;
 	height: 30px;
-	border-radius: 10px 10px 0px 0px;
-	margin-top: 20px;
+	border-radius: 10px 10px 0px 0px;	
 }
 
 .toolbar .title{
-	color: #000;
+	color: lightgrey;
 	display: block;
-	font: "Ubuntu";
-	line-height: 30px;
-	text-align: center;
+	font-family: Ubuntu;
+	padding: 5px 100px 5px 525px;
 }
 
-.toolbar .controls{
-	left: 9px;
-	position: absolute;
-	top: 9px;
+.toolbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-.toolbar .controls li a.close{
-	background-image: url('./img/Close.png');
-	display: inline;
+.toolbar li{
+	float: right;
 }
 
-.toolbar .controls li a.minimize{
-	background-image: url('./img/Minimize.png') no-repeat;
-	display: inline;
-	
+.toolbar li a{
+	display: block;
+	color: white;
+	text-decoration:none;
+	padding: 5px 10px 5px 0px;
 }
 
-.toolbar .controls li a.maximize{
-	background-image: url('./img/Maximize.png') no-repeat;
-	display: inline;
-	
+/* .toolbar .controls .Minimize{
+	background-image: url('./img/minimize.png'); 
+	height: 13px;
+	width: 12px;
+	display: block;
+	float: left;
 }
 
-.toolbar .title-terminal{
-	position: relative;
+.toolbar .controls .Maximize{
+	background-image: url('./img/maximize.png'); 
+	height: 13px;
+	width: 12px;
+	display: block;
+	float: left;
 }
 
+.toolbar .controls .Close{
+	background-image: url('./img/close.png'); 
+	height: 13px;
+	width: 12px;
+	display: block;
+	float: left;
+}
+ */
 
 
 
