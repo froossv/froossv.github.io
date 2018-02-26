@@ -17,7 +17,8 @@ body{
 }
 
 .terminal{
-	max-width: 1300px;
+	max-width: 85%;
+	position: center;
 	margin-top: 220px;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -53,30 +54,26 @@ body{
 	padding: 5px 10px 5px 0px;
 }
 
-/* .toolbar .controls .Minimize{
-	background-image: url('./img/minimize.png'); 
-	height: 13px;
-	width: 12px;
+#Minimize{
+	background-image: url('./img/minimize.png');
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: block;
-	float: left;
+	float: right;
 }
 
-.toolbar .controls .Maximize{
+#Maximize{
 	background-image: url('./img/maximize.png'); 
-	height: 13px;
-	width: 12px;
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: block;
-	float: left;
+	float: right;
 }
 
-.toolbar .controls .Close{
+#Close{
 	background-image: url('./img/close.png'); 
-	height: 13px;
-	width: 12px;
+	background-size: contain;
+	background-repeat: no-repeat;
 	display: block;
-	float: left;
+	float: right;
 }
- */
-
-
-
