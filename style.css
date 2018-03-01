@@ -55,7 +55,7 @@ body{
 }
 
 #Minimize{
-	background-image: url('./img/minimize.png');
+	background-image: url('./img/Minimize.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -63,7 +63,7 @@ body{
 }
 
 #Maximize{
-	background-image: url('./img/maximize.png'); 
+	background-image: url('./img/Maximize.png'); 
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -71,7 +71,7 @@ body{
 }
 
 #Close{
-	background-image: url('./img/close.png'); 
+	background-image: url('./img/Close.png'); 
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
