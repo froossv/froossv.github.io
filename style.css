@@ -25,7 +25,7 @@ body{
 }  
 
 .toolbar{
-	background-image: url('./img/toolbar.png');
+	background-image: url('./img/ToolBar.png');
 	height: 30px;
 	border-radius: 10px 10px 0px 0px;	
 }
@@ -33,7 +33,7 @@ body{
 .toolbar .title{
 	color: lightgrey;
 	display: block;
-	font-family: Ubuntu;
+	font-family: 'Ubuntu';
 	padding: 5px 100px 5px 525px;
 }
 
