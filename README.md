@@ -7,13 +7,16 @@ WORK IN PROGRESS
 Final Aims:
 Contains a terminal emulator with Linux Bash like interface with custom commands:
 
->blog
+'$blog'
+
   Link to my Personal Blog
   
->info
+'$info'
+
   Displays Personal Information about the Author
   
->projects
+'$projects'
+
   Displays the Github Repo Link of the Author
   
 and many more to come..
