@@ -6,7 +6,7 @@
 }
 
 body{
-	background-image: url('./gifs/SolarSystem.gif');
+	background-image: url('./../gifs/SolarSystem.gif');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -22,12 +22,12 @@ body{
 	margin-top: 220px;
 	margin-left: 100px;
 	margin-right: 100px;
-}  
+}
 
 .toolbar{
-	background-image: url('./img/ToolBar.png');
+	background-image: url('./../img/ToolBar.png');
 	height: 30px;
-	border-radius: 10px 10px 0px 0px;	
+	border-radius: 10px 10px 0px 0px;
 }
 
 .toolbar .title{
@@ -55,7 +55,7 @@ body{
 }
 
 #Minimize{
-	background-image: url('./img/Minimize.png');
+	background-image: url('./../img/Minimize.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -63,7 +63,7 @@ body{
 }
 
 #Maximize{
-	background-image: url('./img/Maximize.png'); 
+	background-image: url('./../img/Maximize.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -71,7 +71,7 @@ body{
 }
 
 #Close{
-	background-image: url('./img/Close.png'); 
+	background-image: url('./../img/Close.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
