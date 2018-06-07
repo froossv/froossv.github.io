@@ -6,7 +6,7 @@
 }
 
 body{
-	background-image: url('./../gifs/SolarSystem.gif');
+	background-image: url('../gifs/SolarSystem.gif');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -16,7 +16,7 @@ body{
 	overflow-y: hidden;
 }
 
-.terminal{
+.terminaldiv{
 	max-width: 85%;
 	position: center;
 	margin-top: 220px;
@@ -25,7 +25,7 @@ body{
 }
 
 .toolbar{
-	background-image: url('./../img/ToolBar.png');
+	background-image: url('../img/ToolBar.png');
 	height: 30px;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -54,8 +54,14 @@ body{
 	padding: 5px 10px 5px 0px;
 }
 
+.terminal {
+ --color: green;
+ --background: black;
+ --animation: terminal-bar;
+}
+
 #Minimize{
-	background-image: url('./../img/Minimize.png');
+	background-image: url('../img/Minimize.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -63,7 +69,7 @@ body{
 }
 
 #Maximize{
-	background-image: url('./../img/Maximize.png');
+	background-image: url('../img/Maximize.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
@@ -71,7 +77,7 @@ body{
 }
 
 #Close{
-	background-image: url('./../img/Close.png');
+	background-image: url('../img/Close.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
