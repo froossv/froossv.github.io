@@ -1,24 +1,11 @@
-@font-face {
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 400;
-    src: url(./fonts/ubuntu.woff) format('woff');
-}
-
 body{
-	background-image: url('../gifs/SolarSystem.gif');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	height:100%;
-	width:100%;
+	background-color: black;
 	overflow-x: hidden;
-
 }
 
 .terminaldiv{
 	position: center;
-	margin-top: 220px;
+	margin-top: 80px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -26,20 +13,39 @@ body{
 .toolbar{
 	background-image: url('../img/ToolBar.png');
 	height: 30px;
-	border-radius: 10px 10px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
 }
 
 .toolbar .title{
 	color: lightgrey;
 	display: block;
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu Mono', monospace;
 	padding: 5px 100px 5px 525px;
 }
 
 .terminal{
     --color: green;
-    --background: black;
+    --background: rgb(48,10,36);
     animation: terminal-bar;
     width: 100%;
+    height: 350px;
+    opacity: 0.95;
+    font-family: 'Ubuntu Mono';
+}
 
+.heading{
+    text-align: center;
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    color: white;
+    height: 150px;
+}
+
+.typed{
+	font-size: 60px;
+}
+
+.quote{
+	margin-top: 10px;
+	font-size: 30px;
 }
