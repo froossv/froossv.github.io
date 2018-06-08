@@ -2,10 +2,10 @@ jQuery(function($, undefined) {
  $('#term_demo').terminal(function(command) {
 
    if (command == 'social'){
-     this.echo("mailto:srivats64@gmail.com\n")
-     this.echo("https://www.github.com/froossv\n")
-     this.echo("https://www.instagram.com/vathzenmode\n")
-     this.echo("https://themaraudersmapforlife.wordpress.com/")
+     this.echo("Email Me : srivats64@gmail.com \n")
+     this.echo("Github Repo : https://github.com/froossv \n")
+     this.echo("Instagram : https://instagram.com/vathzenmode \n")
+     this.echo("Blog : https://themaraudersmapforlife.wordpress.com")
    }
 
    if (command == 'edu'){

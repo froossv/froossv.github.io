@@ -13,11 +13,10 @@ body{
 	height:100%;
 	width:100%;
 	overflow-x: hidden;
-	overflow-y: hidden;
+
 }
 
 .terminaldiv{
-	max-width: 85%;
 	position: center;
 	margin-top: 220px;
 	margin-left: 100px;
@@ -37,49 +36,10 @@ body{
 	padding: 5px 100px 5px 525px;
 }
 
-.toolbar ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+.terminal{
+    --color: green;
+    --background: black;
+    animation: terminal-bar;
+    width: 100%;
 
-.toolbar li{
-	float: right;
-}
-
-.toolbar li a{
-	display: block;
-	color: white;
-	text-decoration:none;
-	padding: 5px 10px 5px 0px;
-}
-
-.terminal {
- --color: green;
- --background: black;
- --animation: terminal-bar;
-}
-
-#Minimize{
-	background-image: url('../img/Minimize.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: block;
-	float: right;
-}
-
-#Maximize{
-	background-image: url('../img/Maximize.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: block;
-	float: right;
-}
-
-#Close{
-	background-image: url('../img/Close.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: block;
-	float: right;
 }
