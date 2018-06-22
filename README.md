@@ -20,3 +20,7 @@ Contains a terminal emulator with Linux Bash like interface with custom commands
   Displays the Github Repo Link of the Author
   
 and many more to come..
+
+ShoutOut to the Scripts i have used: 
+    jQueryTerminal : https://github.com/jcubic/jquery.terminal
+    Typing Animation : https://github.com/mattboldt/typed.js/
