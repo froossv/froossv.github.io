@@ -1,26 +1,29 @@
 # froossv.github.io
 
-Personal Website of Srivathsan
+'$social'
 
-WORK IN PROGRESS
+  View My Social Credentials
+  
+'$edu'
 
-Final Aims:
-Contains a terminal emulator with Linux Bash like interface with custom commands:
+  My Alma MAter, Current Degree Information
+  
+'$help'
 
-'$blog'
-
-  Link to my Personal Blog
+  Guide to use this Website
+  
+'$goto blog'
+  Peruse my Personal Blog.
   
 '$info'
-
-  Displays Personal Information about the Author
-  
-'$projects'
-
-  Displays the Github Repo Link of the Author
+  General Information about myself.
   
 and many more to come..
 
-ShoutOut to the Scripts i have used: 
+ShoutOut to the Scripts I have used: 
     jQueryTerminal : https://github.com/jcubic/jquery.terminal
     Typing Animation : https://github.com/mattboldt/typed.js/
+
+
+Further Aims:
+  Chatterbot? My Twitter Quora Feed? Current Projects Status?
