@@ -32,7 +32,10 @@ jQuery(function($, undefined){
         }
         
         if(command.toUpperCase() === 'WHAT DOES THE FOX SAY'){
-            this.echo("Ring Ding Ring Ding Ringadingading")
+            this.echo("Ring-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!")
+        }
+        if(command.toUpperCase() === ''){
+            
         }
 
         else {
