@@ -34,8 +34,8 @@ jQuery(function($, undefined){
         if(command.toUpperCase() === 'WHAT DOES THE FOX SAY'){
             this.echo("Ring-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!")
         }
-        if(command.toUpperCase() === ''){
-            
+        if(command.toUpperCase() === 'BEST FRIEND'){
+            this.echo("Shendon :P")
         }
 
         else {
