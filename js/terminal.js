@@ -26,16 +26,20 @@ jQuery(function($, undefined){
             this.echo("Hello User! Im Srivathsan studying B.Tech Information and Communication in SASTRA University, \n")
             this.echo("Thanjavur,India. Highly passionate about Cryptography and Mathematics")
         }
-        
+
         if(command == '42'){
             this.echo("The Answer to the Life, Universe and Everything.\n")
         }
-        
+
         if(command.toUpperCase() === 'WHAT DOES THE FOX SAY'){
             this.echo("Ring-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!\nGering-ding-ding-ding-dingeringeding!")
         }
         if(command.toUpperCase() === 'BEST FRIEND'){
             this.echo("Shendon :P")
+        }
+        if(command.toUpperCase() === 'PROJECTS'){
+            this.echo("Opening in New Tab...")
+            window.open('https://github.com/froossv','_blank')
         }
 
         else {
