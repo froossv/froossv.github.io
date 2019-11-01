@@ -14,13 +14,43 @@ body{
 	background-image: url('../img/ToolBar.png');
 	height: 30px;
 	border-radius: 5px 5px 0px 0px;
+	padding-left: 12px;
+	position: relative;
+	user-select: none;
 }
 
-.toolbar .title{
+.buttons{
+	position: absolute;
+	top: 6px;
+}
+
+.button{
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-left: 3px;
+}
+
+.xbut{
+	background: rgba(0, 0, 0, 0) url('../img/Close.png') no-repeat center center / cover;
+}
+
+.maxbut{
+	background: rgba(0, 0, 0, 0) url('../img/Maximize.png') no-repeat center center / cover;
+}
+
+.minbut{
+	background: rgba(0, 0, 0, 0) url('../img/Minimize.png') no-repeat center center / cover;
+}
+
+.title{
 	color: lightgrey;
 	display: block;
 	font-family: 'Ubuntu Mono', monospace;
-	padding: 5px 100px 5px 525px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .terminal{
