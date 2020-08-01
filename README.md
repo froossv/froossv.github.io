@@ -1,5 +1,4 @@
-# froossv.github.io
-
+# www.vathzen.in
 '$social'
 
   View My Social Credentials
@@ -28,4 +27,4 @@ ShoutOut to the Scripts I have used:
 
 
 Further Aims:
-  Chatterbot? My Twitter Quora Feed? Current Projects Status?
+  Chatbot? My Twitter Quora Feed? Current Projects Status?
